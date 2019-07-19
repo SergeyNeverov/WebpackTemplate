@@ -1,0 +1,12 @@
+@import "utils/variables";
+@import "utils/mixins";
+@import "utils/libs";
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: #304855;
+  h1 {
+    font-size: rem(20);
+  }
+}
